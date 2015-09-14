@@ -1,7 +1,7 @@
-$(document).submit(function() {
+$(document).ready(function() {
     event.preventDefault();
 
-    var inputtedLocation = $("input#new-location").val();
+    var inputtedLocation = $("input#address").val();
 
 
 
