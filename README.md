@@ -9,7 +9,7 @@
 _This project makes use of: [Mocha](https://mochajs.org/), and [Chai](http://chaijs.com/) as testing-frameworks. And has a dependency for jQuery. google maps api..._
 
 ### Legal
-Copyright (c) 2015 Mike Chastain & Sam Martinez
+Copyright (c) 2015 Mike Chastain & Nathan Young
 
 This software is licensed under the MIT license.
 
