@@ -2,16 +2,21 @@
 <html>
     <head>
         <title>Geocoding service</title>
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
         <meta charset="utf-8">
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <link href="css/main.css" rel="stylesheet">
     </head>
 <body>
+    <div class="info">This was a project I worked on for about 4 hours one day, mostly figuring out the maps api.
+
+    </div>
     <div id="floating-panel">
-        <input id="address" type="textbox" value="Portland, OR">
-        <input id="notes" type="text" value="notes">
-        <input id="submit" type="button" value="submit the place">
+        <label for="">Balls</label>
+        <input id="address" type="textbox" value="Portland, OR"><br>
+        <textarea id="notes" value="">Write a note about the place here</textarea>
+        <br>
+        <input id="submit" type="button" value="Pin place to the map">
     </div>
 
     <div id="map"></div>
@@ -49,7 +54,7 @@
                     var contentString = '<div id="content">'+
                         '<div id="siteNotice">'+
                         '</div>'+
-                        '<h1 id="firstHeading" class="firstHeading">' +  + '</h1>'+
+                        '<h1 id="firstHeading" class="firstHeading">' + address + '</h1>'+
                         '<div id="bodyContent">'+
                         '<a href =\'https://www.google.com/search?q=' + mynotes + '&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd39T735nLAhUS-mMKHQELAusQ_AUIBygB&biw=1894&bih=873\'>' + mynotes + '</a>'
                         '</div>';
