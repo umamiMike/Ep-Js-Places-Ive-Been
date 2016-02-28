@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 
 #map {
@@ -10,6 +11,7 @@ html, body {
 
 #floating-panel {
 	position: absolute;
+	width:250px;
 	top: 80px;
 	left: 0%;
 	z-index: 5;
@@ -21,7 +23,21 @@ html, body {
 	line-height: 30px;
 	padding-left: 10px;
 }
+#floating-panel label{
+	text
+}
+
 input[id="address"]{
+width: 85%;
+margin-bottom: 8px;
+}
+
+#firstHeading{
+	font-size: 1.4em;
+
+}
+#bodyContent a{
+	text-decoration: none;
 	
 }
 
